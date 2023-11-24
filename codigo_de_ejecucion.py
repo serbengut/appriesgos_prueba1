@@ -9,7 +9,8 @@ from sklearn.preprocessing import Binarizer
 from sklearn.preprocessing import MinMaxScaler
 
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import HistGradientBoostingRegressor
+#from sklearn.ensemble import HistGradientBoostingRegressor
+from sklearn.ensemble import GradientBoostingClassifier
 
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer
